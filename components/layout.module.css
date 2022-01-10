@@ -1,0 +1,45 @@
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(224, 224, 224);
+    padding: 8px;
+}
+
+.site_h1 {
+    margin: 1rem 0;
+}
+
+.backToHome {
+    margin: 3rem 0 0;
+}
+
+.contents {
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.main {
+    background: bisque;
+    padding: 8px;
+}
+
+.sidebar {
+    background: rgb(196, 255, 237);
+    padding: 8px;
+}
+
+.footer {
+    background: rgb(215, 235, 161);
+    padding: 8px;
+    height: 100px;
+}
